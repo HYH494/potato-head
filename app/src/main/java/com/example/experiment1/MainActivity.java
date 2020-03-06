@@ -2,7 +2,9 @@ package com.example.experiment1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.res.Configuration;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
@@ -14,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         CheckBox c_arm,c_ears,c_eyebrows,c_eyes,c_glasses,c_hat,c_mouth,c_mustache,c_nose,c_shoes;
         final ImageView p_arm,p_ears,p_eyebrows,p_eyes,p_glasses,p_hat,p_mouth,p_mustache,p_nose,p_shoes;
         c_arm = findViewById(R.id.c_arms);
