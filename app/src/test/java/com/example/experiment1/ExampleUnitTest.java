@@ -1,4 +1,4 @@
-package mg.studio.android.lab001;
+package com.example.experiment1;
 
 import org.junit.Test;
 
